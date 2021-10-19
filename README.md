@@ -32,3 +32,11 @@ cat ~/.ssh/id_ed25519.pub
 4. Veremos, en la esquina superior derecha, un cuadro verde con algo similar a *Nueva Clave SSH*.
 5. En el título introduciremos un nombre descriptivo para nuestra clave y, a continuación, en el cuadro situado debajo, pegaremos la clave que hemos copiado antes.
 6. Por último, le damos a *Añadir Clave*.
+
+## Alternativa
+Alternativamente, se puede usar el scrip localizado en el [repositorio original](), que cubre las dos primeras secciones y el primer paso de la tercera:
+```
+git clone https://github.com/krs98/ssh.git
+cd ssh
+./ssh.sh "tu@correo.com"
+```
